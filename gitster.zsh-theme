@@ -12,7 +12,7 @@ _prompt_gitster_pwd() {
   else
     current_dir="${PWD/#${HOME}/~}"
   fi
-  print -n "%F{white}${current_dir}"
+  print -n "%F{magenta}${current_dir}"
 }
 
 setopt nopromptbang promptcr promptpercent promptsp promptsubst
